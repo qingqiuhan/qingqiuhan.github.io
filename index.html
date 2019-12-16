@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Qingqiu Han Portfolio</title>
+        <style>
+        * 
+        {box-sizing: border-box}
+        html,body{
+            width:100%;
+            height:100%;
+        }
+        /*这里是规定了尺寸的自适应*/
+        .personal {
+            background-color: #FFFFFF;/*#ffc60b;rgba(x,x,x,y)y=opacity*/
+            padding:5px 50px;/*这样子实现垂直居中*/
+        }
+        .content{
+            background-color: #FFFFFF;
+            /*position: absolute;
+            top: 98px;*/
+            border: 1px none;/*如何设置自适应高度的div？*/
+            padding:50px;
+            width:100%;
+            height:auto;
+        }
+        .first{
+            width:25%;
+            height: auto;
+        }
+        .second{
+            width:25%;
+            height: auto;
+        }
+        .third{
+            width:25%;
+            height: auto;
+        }
+        .first:hover button.work1{
+            box-shadow: 0 0 20px rgb(0, 0, 0, 0.3);
+            transform: scale(1.02);
+        }
+        .second:hover button.work2{
+            box-shadow: 0 0 20px rgb(0, 0, 0, 0.3);
+            transform: scale(1.02);
+        }
+        .third:hover button.work3{
+            box-shadow: 0 0 20px rgb(0, 0, 0, 0.3);
+            transform: scale(1.02);
+        }
+        .first:hover div.promopt1{
+            visibility: visible;
+        }
+        .second:hover div.promopt2{
+            visibility: visible;
+        }
+        .third:hover div.promopt3{
+            visibility: visible;
+        }
+        .work1{
+            padding: 0;
+            outline: none;
+            /*background-color: rgb(158, 208, 135,0.8);*/
+            background-color: #FFFFFF;
+            /*padding:10px;*/
+            /*box-shadow: 0 0 20px rgb(0, 0, 0, 0.3);*/
+            width:25%;
+            height:auto;
+            text-align: center;
+            border: 1px none;
+            border-radius: 10px;
+            font-size: 0px;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            
+        }
+        .work2{
+            /*padding:10px;*/
+            /*box-shadow: 0 0 20px rgb(0, 0, 0, 0.3);*/
+            /*background-color: rgb(171, 212, 240,0.5);*/
+            padding: 0;
+            background-color: #FFFFFF;
+            height:auto;
+            width:25%;
+            text-align: center;  
+            margin: 0 auto;
+            border-radius: 10px;
+            border: 1px none;
+            font-size: 0px;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+        }
+        .work3{
+            /*background-color: rgb(43, 105, 156,0.5);*/
+            padding: 0;
+            background-color: #FFFFFF;
+            position:relative;
+            top:60%;
+            right:10%;
+            /*box-shadow: 0 0 20px rgb(0, 0, 0, 0.3);*/
+            height:auto;
+            width:25%;
+            /*padding:10px;*/
+            text-align: center;
+            border-radius: 10px;
+            border: 1px none;
+            font-size: 0px;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            
+        }
+        p.text{
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 16px;
+            color:#FFFFFF;
+        }
+        .promopt1{
+           position: absolute; 
+           top:87%; 
+           left: 10%; 
+           width: 25%; 
+           text-align: center; 
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           visibility: hidden;
+           color: #555555;
+           -webkit-transition-delay: 0.1s; /* Safari */
+           transition-delay: 0.1s;
+        }
+        .promopt2{
+           position: absolute; 
+           top:87%; 
+           left: 37.5%; 
+           width: 25%; 
+           text-align: center; 
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           visibility: hidden;
+           color: #555555;
+           -webkit-transition-delay: 0.1s; /* Safari */
+           transition-delay: 0.1s;
+        }
+        .promopt3{
+           position: absolute; 
+           top:87%; 
+           right: 10%; 
+           width: 25%; 
+           text-align: center; 
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           visibility: hidden;
+           color: #555555;
+           -webkit-transition-delay: 0.1s; /* Safari */
+           transition-delay: 0.1s;
+        }
+
+
+    
+        
+        </style>
+    </head>
+    <body>
+        <div class="personal">
+            <h1 style="
+            color:  rgb(62, 62, 62);
+            font-size: 32px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            position: relative;
+            top: 20px;">
+            Hi ~ I'm Q<sup>2</sup>H :)&nbsp;&nbsp;&nbsp;&nbsp;Welcome to my Portfolio!</h1>
+            <br>
+            <p style="color: rgba(62, 62, 62, 0.8);
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;text-align: center;">Please click the image to get more information on my work</p>
+        </div>
+        <div class="content">
+            <p
+                style="text-align: center;
+                font-size: 14px;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                top:15%;
+                color: rgb(0, 0, 0, 0.5);
+                left:50%; 
+                transform: translate(-50%,0);"></p>
+            <div class="first">
+            <a target="_blank" href="file:///Users/hanqingqiu/Desktop/cheer%20up/material/portfolio/website/work1/interface%20optimization.html">
+                <button class="work1" style="position:absolute;top:20%; left:10%;">
+                    <img src="cover1.jpg" width="100%" height="auto" style="border-radius: 10px;">
+                </button>
+            </a>
+                <div class="promopt1">
+                    Get more beautiful interface
+                </div>
+            </div>
+            
+            <div class="second">
+            <a target="_blank" href="file:///Users/hanqingqiu/Desktop/cheer%20up/material/portfolio/website/work2/interaction%20design.html">
+            <button class="work2 type2" style="position:absolute; top:20%; left:37.5%; margin: 0 auto;">
+                   <img src="cover2.jpg" width="100%" height="auto" style="border-radius: 10px;">
+            </button>
+            </a>
+                <div class="promopt2">
+                    Pursue better use experience
+                </div>
+            </div>
+            <div class="third">
+            <a target="_blank" href="file:///Users/hanqingqiu/Desktop/cheer%20up/material/portfolio/website/work3/work3.html">
+            <button class="work3 type3" style="position:absolute;top:20%; right:10%;">
+                    <img src="cover3.jpg" width="100%" height="auto" style="border-radius: 10px;">
+            </button>
+            </a>
+                <div class="promopt3">
+                    Make information clearer
+                </div>
+            </div>
+            <br>
+            <br>
+            <div style="margin: 20px 0;">
+                <p style="text-align: center;
+             font-size: 16px;
+             color:darkgrey;
+             position: absolute;
+             top: 95%;
+             left: 50%;
+             transform: translate(-50%,0);">
+                E-mail:qingqiuhan@gmail.com
+
+            </p>
+           </div>
+           
+           
+        </div>
+    </body>
+</html>
